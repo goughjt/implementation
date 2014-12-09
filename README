@@ -1,0 +1,10 @@
+This code is highly inspired by the paper "Fast, Approximate Piecewise-Planar Modeling Based on Sparse Structure-from-Motion and Superpixels" by Andras Bodis-Szomoru, Hayko Riemenschneider and Luc Van Gool (The IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014, pp. 469-476).
+
+The code takes as input a directory containing png, PNG, jpg or JPG files as well as the NVM output file from Visual SfM.
+Directory paths are currently hardcoded in, which is obviously not good.
+In fact, the whole thing needs a good going over.
+
+I build this on my machine (Ubuntu, amd64 processor) using the buildAll command (see contents of repo).
+
+
+

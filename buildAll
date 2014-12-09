@@ -1,0 +1,1 @@
+g++ -o zRun ./code/*.cpp `vigra-config --cppflags --libs` `pkg-config --cflags --libs opencv` `pkg-config --cflags --libs mrpt-base mrpt-bayes mrpt-detectors mrpt-graphs mrpt-graphslam mrpt-gui mrpt-hmtslam mrpt-hwdrivers mrpt-maps mrpt-obs mrpt-opengl mrpt-reactivenav mrpt-scanmatching mrpt-slam mrpt-topography mrpt-vision` -w -fpermissive
